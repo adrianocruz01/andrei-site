@@ -7,7 +7,7 @@ export default function ComponentTwo() {
 			<div className='co2-content'>
 				<h1 className='primeiro-h1'>LA MOEDITA SECRETA</h1>
 				<div className='ct-container'>
-					<p className='font-main blue'>
+					<p className='font-p'>
 						Eu vou compartilhar as estratégias que uso para selecionar as
 						melhores oportunidades neste novo mercado, pouco explorado e ainda
 						te levar a Dubai comigo com lucros que você terá com as operações!
@@ -16,13 +16,15 @@ export default function ComponentTwo() {
 				</div>
 			</div>
 			<div className='co2-content2'>
-				<h1 className="segundo-h1"> CLIQUE NO BOTÃO ABAIXO</h1>
-				<a className="participe-link" href='#'>PARTICIPE</a>
-				<div className="segundo-p">
+				<h1 className='segundo-h1'> CLIQUE NO BOTÃO ABAIXO</h1>
+				<a className='participe-link' href='#'>
+					PARTICIPAR
+				</a>
+				<div className='segundo-p'>
 					<p>VENHA FAZER PARTE DO MEU SELETO GRUPO </p>
 					<p>
-						DE INVESTIDORES EM CRIPTO, QUE É
-						O LÁ MOEDITA SECRETA.
+						DE INVESTIDORES EM CRIPTOS, QUE É O{" "}
+						<b className='font-strong'>LÁ MOEDITA SECRETA</b>.
 					</p>
 				</div>
 			</div>

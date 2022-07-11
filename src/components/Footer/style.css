@@ -1,12 +1,23 @@
 .co3-content {
-    background: url('../../assets/background 4.png');
-    background-size: cover;
-    width: 100%;
-    max-width: 100vw;
-    background-position: center;
+	display: flex;
+	justify-content: center;
+	background: url("../../assets/background 4.png");
+	padding: 100px 0;
+	background-size: cover;
+	width: 100%;
+	max-width: 100vw;
+	background-position: center;
+	margin-top: 50px;
+	gap: 10px;
 }
 
-.youtube {
-    height: 50px;
-    width: 80px;
+.ico {
+	width: 70px;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.ico-telegram {
+	width: 70px;
+	cursor: pointer;
 }
