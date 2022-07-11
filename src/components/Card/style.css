@@ -1,0 +1,26 @@
+.card {
+	height: 436px;
+	width: 400px;
+	cursor: pointer;
+	font-family: "Rubik", sans-serif;
+}
+
+.img-video {
+	width: 400px;
+}
+
+.card:hover {
+	transform: scale(1.02);
+}
+
+.card h3 {
+	color: #ffffff;
+	font-size: 20px;
+	margin: 8px 0;
+}
+
+.card p {
+	color: #ccc3c3;
+	font-size: 16px;
+	text-align: justify;
+}

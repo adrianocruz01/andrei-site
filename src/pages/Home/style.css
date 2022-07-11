@@ -1,0 +1,61 @@
+.container {
+	background: url("../../assets/background 3.jpg");
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.capa-andrei {
+	background-size: cover;
+	top: 100px;
+}
+
+main {
+	width: 65%;
+	padding-right: 20px;
+	margin-top: 50px;
+}
+
+main h2 {
+	color: #ffffff;
+	border-bottom: 1px solid #6a6363;
+	padding-bottom: 24px;
+	margin-bottom: 12px;
+}
+
+.container-cards {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.font-main {
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+}
+
+.font-main-italic {
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-size: 64px;
+	font-weight: 900;
+	letter-spacing: -2px;
+	background-color: #130633;
+	padding: 0 30px;
+}
+
+.font-name {
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-size: 86px;
+	font-weight: 900;
+	letter-spacing: -2px;
+}
+
+.ai-center {
+	align-items: center;
+}

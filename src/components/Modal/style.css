@@ -1,0 +1,38 @@
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.9);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-close {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 40px;
+	cursor: pointer;
+}
+
+.modal-controls {
+	display: flex;
+	gap: 30px;
+}
+
+.modal-previous {
+	width: 100px;
+	cursor: pointer;
+}
+
+.modal-next {
+	width: 100px;
+	cursor: pointer;
+}
+
+.modal-display-none {
+	display: none;
+}

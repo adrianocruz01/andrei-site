@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/andrei-web/static/css/main.050c81fd.css",
+    "main.js": "/andrei-web/static/js/main.df414c7b.js",
+    "static/media/profile.jpg": "/andrei-web/static/media/profile.8359bb92947f70b96338.jpg",
+    "static/media/modal-next.svg": "/andrei-web/static/media/modal-next.d79226ce4c51ce074a8c7303e0f49321.svg",
+    "static/media/modal-previous.svg": "/andrei-web/static/media/modal-previous.bf46af516f1e4f4b0112cfe199cfa0f4.svg",
+    "static/media/modal-close.svg": "/andrei-web/static/media/modal-close.8d5bcabb148dfd9468468851b7193f73.svg",
+    "index.html": "/andrei-web/index.html",
+    "main.050c81fd.css.map": "/andrei-web/static/css/main.050c81fd.css.map",
+    "main.df414c7b.js.map": "/andrei-web/static/js/main.df414c7b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.050c81fd.css",
+    "static/js/main.df414c7b.js"
+  ]
+}
