@@ -1,0 +1,12 @@
+.co3-content {
+    background: url('../../assets/background 4.png');
+    background-size: cover;
+    width: 100%;
+    max-width: 100vw;
+    background-position: center;
+}
+
+.youtube {
+    height: 50px;
+    width: 80px;
+}

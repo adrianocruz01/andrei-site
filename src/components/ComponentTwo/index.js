@@ -15,14 +15,16 @@ export default function ComponentTwo() {
 					<img src={ImgMaoComMoeda} alt='' className='maoComMoeda' />
 				</div>
 			</div>
-			<div className='co2-content'>
-				<h1> CLIQUE NO BOTÃO ABAIXO</h1>
-				<a href='#'>PARTICIPE</a>
-				<p>
-					{" "}
-					VENHA FAZER PARTE DO MEU SELETO GRUPO DE INVESTIDORES EM CRIPTO, QUE É
-					O LÁ MOEDITA SECRETA.{" "}
-				</p>
+			<div className='co2-content2'>
+				<h1 className="segundo-h1"> CLIQUE NO BOTÃO ABAIXO</h1>
+				<a className="participe-link" href='#'>PARTICIPE</a>
+				<div className="segundo-p">
+					<p>VENHA FAZER PARTE DO MEU SELETO GRUPO </p>
+					<p>
+						DE INVESTIDORES EM CRIPTO, QUE É
+						O LÁ MOEDITA SECRETA.
+					</p>
+				</div>
 			</div>
 		</div>
 	);

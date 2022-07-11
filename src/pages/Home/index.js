@@ -3,6 +3,7 @@ import Card from "../../components/Card";
 import ComponentOne from "../../components/ComponentOne";
 import ComponentTwo from "../../components/ComponentTwo";
 import Modal from "../../components/Modal";
+import Footer from "../../components/Footer";
 import { videos } from "../../videos";
 import "./style.css";
 
@@ -40,6 +41,9 @@ function App() {
 					handleClose={() => setOpenModal(false)}
 				/>
 			)}
+			<h1 className="unico-h1"> CLIQUE NO BOTÃO ABAIXO</h1>
+			<a className="participe-link" href='#'>PARTICIPE</a>
+			<Footer />
 		</div>
 	);
 }

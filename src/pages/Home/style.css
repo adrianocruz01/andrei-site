@@ -15,7 +15,6 @@ main {
 
 main h2 {
 	color: #ffffff;
-	border-bottom: 1px solid #6a6363;
 	padding-bottom: 24px;
 	margin-bottom: 12px;
 }
@@ -59,6 +58,7 @@ main h2 {
 	main {
 		width: 90%;
 	}
+
 	.container-cards {
 		display: flex;
 
@@ -66,4 +66,11 @@ main h2 {
 		justify-content: flex-start;
 		flex-wrap: wrap;
 	}
+}
+
+.unico-h1 {
+	margin-top: 100px;
+	margin-bottom: 30px;
+	font-size: 100px;
+	color: wheat;
 }

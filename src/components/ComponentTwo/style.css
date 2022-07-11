@@ -25,3 +25,33 @@
 .blue {
 	color: blue;
 }
+
+.co2-content2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 300px;
+}
+
+.segundo-h1 {
+	font-size: 100px;
+	margin-bottom: 30px;
+}
+
+.participe-link {
+	opacity: 75%;
+	font-size: 40px;
+	padding: 20px 300px;
+	margin-bottom: 60px;
+	text-decoration: none;
+	background-color: white;
+}
+
+.segundo-p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 30px;
+}
