@@ -7,9 +7,9 @@ export default function ComponentOne() {
 		<div className='co-container'>
 			<div className='co-content ai-center'>
 				<div className='co-content-text'>
-					<h2 className='font-main'>SATISFAÇÃO, ME CHAMO</h2>
+					<h2 className='font-main white'>SATISFAÇÃO, ME CHAMO</h2>
 					<h1 className='font-name'>ANDREI CRUZ</h1>
-					<h2 className='font-main'>
+					<h2 className='font-main white'>
 						Além de ser especialista de criptomoedas e possuir quase 20.000
 						seguidores nas minhas redes sociais, fui Oficial das Forças Armadas
 						do Brasil e tenho como lema a honra!
@@ -27,7 +27,7 @@ export default function ComponentOne() {
 						</i>
 					</h2>
 
-					<h2 className='font-main mg-top-200'>
+					<h2 className='font-main white mg-top-200'>
 						No último ano venho mostrando como ter resultados explosivos no
 						mercado de criptomoedas de forma automatizada com o que há de mais
 						avançado em termos de tecnologia de negociações.
