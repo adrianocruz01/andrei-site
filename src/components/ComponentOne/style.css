@@ -40,3 +40,32 @@
 .white {
 	color: white;
 }
+
+@media only screen and (max-width: 1650px) {
+	.co-content {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+		margin-top: 50px;
+	}
+	.capa-andrei {
+		width: 600px;
+	}
+	.font-main {
+		margin-top: 30px;
+	}
+
+	.co-content-text {
+		display: flex;
+		flex-direction: column;
+		max-width: 700px;
+		gap: 25px;
+		letter-spacing: -1px;
+	}
+	.co-content-text-two {
+		max-width: 720px;
+		margin-bottom: 50px;
+		text-align: center;
+	}
+}
