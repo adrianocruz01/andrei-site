@@ -88,3 +88,24 @@
 .font-strong {
 	font-weight: 900;
 }
+
+@media only screen and (max-width: 1570px) {
+
+	.ct-container {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.maoComMoeda {
+		width: 600px;
+		margin-top: 50px;
+	}
+
+	.segundo-h1 {
+		font-size: 70px;
+		margin-bottom: 30px;
+		color: #130633;
+	}
+
+}

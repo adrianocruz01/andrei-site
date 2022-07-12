@@ -17,13 +17,13 @@ export default function ComponentTwo() {
 			</div>
 			<div className='co2-content2'>
 				<h1 className='segundo-h1'> CLIQUE NO BOTÃO ABAIXO</h1>
-				<a className='participe-link' href='#'>
+				<a className='participe-link' href='https://t.me/GoldarioPortuguese' target="_blank">
 					PARTICIPAR
 				</a>
 				<div className='segundo-p'>
-					<p>VENHA FAZER PARTE DO MEU SELETO GRUPO </p>
+					<p>VENHA FAZER PARTE DO MEU SELETO GRUPO DE INVESTIDORES EM CRIPTOS</p>
 					<p>
-						DE INVESTIDORES EM CRIPTOS, QUE É O{" "}
+						QUE É O{" "}
 						<b className='font-strong'>LÁ MOEDITA SECRETA</b>.
 					</p>
 				</div>
