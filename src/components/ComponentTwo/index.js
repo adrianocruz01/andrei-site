@@ -8,9 +8,9 @@ export default function ComponentTwo() {
 				<h1 className='primeiro-h1'>LA MOEDITA SECRETA</h1>
 				<div className='ct-container'>
 					<p className='font-p'>
-						Eu vou compartilhar as estratégias que uso para selecionar as
-						melhores oportunidades neste novo mercado, pouco explorado e ainda
-						te levar a Dubai comigo com lucros que você terá com as operações!
+						Eu vou compartilhar com você, as estratégias que uso para selecionar as
+						melhores e pouco exploradas oportunidades neste novo mercado. Além disso, eu ainda vou
+						te levar para Dubai, com os lucros que você terá com as operações!
 					</p>
 					<img src={ImgMaoComMoeda} alt='' className='maoComMoeda' />
 				</div>

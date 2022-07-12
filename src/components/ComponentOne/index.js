@@ -10,9 +10,9 @@ export default function ComponentOne() {
 					<h2 className='font-main white'>SATISFAÇÃO, ME CHAMO</h2>
 					<h1 className='font-name'>ANDREI CRUZ</h1>
 					<h2 className='font-main white'>
-						Além de ser especialista de criptomoedas e possuir quase 20.000
-						seguidores nas minhas redes sociais, fui Oficial das Forças Armadas
-						do Brasil e tenho como lema a honra!
+						Além de ser especialista em criptomoedas e possuir cerca de 20 mil
+						seguidores em minhas redes sociais, fui Oficial das Forças Armadas
+						do Brasil e carrego como lema a honra, a lealdade e o comprometimento!
 					</h2>
 				</div>
 				<img src={ImgBusinessAndrei} alt='' className='capa-andrei' />
@@ -28,8 +28,8 @@ export default function ComponentOne() {
 					</h2>
 
 					<h2 className='font-main white mg-top-200'>
-						No último ano venho mostrando como ter resultados explosivos no
-						mercado de criptomoedas de forma automatizada com o que há de mais
+						No último ano venho mostrando como ter resultados expressivos no
+						mercado de criptomoedas, de forma automatizada com o que há de mais
 						avançado em termos de tecnologia de negociações.
 					</h2>
 				</div>
