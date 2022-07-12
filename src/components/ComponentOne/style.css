@@ -49,9 +49,11 @@
 		align-items: center;
 		margin-top: 50px;
 	}
+
 	.capa-andrei {
 		width: 600px;
 	}
+
 	.font-main {
 		margin-top: 30px;
 	}
@@ -63,6 +65,7 @@
 		gap: 25px;
 		letter-spacing: -1px;
 	}
+
 	.co-content-text-two {
 		max-width: 720px;
 		margin-bottom: 50px;
