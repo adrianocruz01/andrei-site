@@ -9,8 +9,17 @@ import { videos } from "../../videos";
 import "./style.css";
 
 function App() {
+	window.onscroll = function () {
+		if (document.documentElement.scrollTop > 800) {
+			setArrow(true);
+		} else {
+			setArrow(false);
+		}
+	};
+
 	const [openModal, setOpenModal] = useState(false);
 	const [url, setUrl] = useState("");
+	const [arrow, setArrow] = useState(0);
 	return (
 		<div className='container'>
 			<ComponentOne id='top' />
@@ -42,9 +51,11 @@ function App() {
 					handleClose={() => setOpenModal(false)}
 				/>
 			)}
-			<a href='#top'>
-				<img src={Arrow} alt='Subir para o topo' className='arrow-top' />
-			</a>
+			{arrow && (
+				<a href='#top'>
+					<img src={Arrow} alt='Subir para o topo' className='arrow-top' />
+				</a>
+			)}
 			<Footer />
 		</div>
 	);

@@ -13,11 +13,12 @@
 
 .ico {
 	width: 70px;
+	height: 80px;
 	cursor: pointer;
-	border-radius: 15px;
 }
 
 .ico-telegram {
 	width: 70px;
+	height: 80px;
 	cursor: pointer;
 }
