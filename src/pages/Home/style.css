@@ -58,6 +58,18 @@ main h2 {
 	align-items: center;
 }
 
+.arrow-top {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	bottom: 15px;
+	right: 15px;
+	padding: 10px;
+	background-color: white;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
 @media only screen and (max-width: 1490px) {
 	main {
 		width: 90%;

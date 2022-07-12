@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Arrow from "../../assets/arrow-up-solid.svg";
 import Card from "../../components/Card";
 import ComponentOne from "../../components/ComponentOne";
 import ComponentTwo from "../../components/ComponentTwo";
@@ -12,7 +13,7 @@ function App() {
 	const [url, setUrl] = useState("");
 	return (
 		<div className='container'>
-			<ComponentOne />
+			<ComponentOne id='top' />
 			<ComponentTwo />
 			<main>
 				<h2>Aprenda tudo que você precisa</h2>
@@ -41,7 +42,9 @@ function App() {
 					handleClose={() => setOpenModal(false)}
 				/>
 			)}
-
+			<a href='#top'>
+				<img src={Arrow} alt='Subir para o topo' className='arrow-top' />
+			</a>
 			<Footer />
 		</div>
 	);
